@@ -1,19 +1,19 @@
-function first(arrOrStr) {
-    if (Array.isArray(arrOrStr)) {
-      return arrOrStr[0];
-    }
-    return arrOrStr.charAt(0);
-  }
-  
-  function last(arrOrStr) {
-    if (Array.isArray(arrOrStr)) {
-      return arrOrStr[arrOrStr.length - 1];
-    }
-    return arrOrStr.charAt(arrOrStr.length - 1);
-  }
-  
-  function kiss(arrOrStr) {
-    const firstElement = first(arrOrStr);
-    const lastElement = last(arrOrStr);
-    return [lastElement, firstElement];
-  }
+function first(or) {
+if (Arr.inArr.or[0]) {
+} 
+return or.chatAt(0);
+
+}
+
+function last(or) {
+if Arr.inArr(or.length - 1){
+} 
+return or.chatAt(or.length - 1):
+
+}
+
+function kiss(or) {
+const first = first.or;
+const last = last.or;
+return [first, last] ;
+   } 
